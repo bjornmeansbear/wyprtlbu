@@ -1,1 +1,9 @@
 /* WYPR custom stlyes for TLBU site */
+
+/* Initial Space holding for Header and Ad sidebar */
+#wypr-header {
+  background: url(i/header-ph.png) center center no-repeat;
+  height: 220px;
+  width: 960px;
+  margin: 0 auto 25px auto;
+}
