@@ -2,6 +2,21 @@
 /* WYPR custom stlyes for TLBU site */
 
 /* GRID INFO */
+.column, .columns, .one-half {
+  margin: 0 12.5px;   
+}
+
+.one.column,
+.one.columns     { width:  75px; }
+.two.columns     { width: 175px; }
+.three.columns   { width: 275px; }
+.four.columns,
+.one-half        { width: 375px; }
+.five.columns    { width: 475px; }
+.six.columns     { width: 575px; }
+.seven.columns   { width: 675px; }
+.eight.columns,
+.fullwidth       { width: 775px; }
 
 /* COLOR INFO */
 /*
@@ -37,8 +52,8 @@ div.view-our-stories div.segment {
   padding: 25px 25px 25px 0;
 }
 
-h2.post-title,
-h2.post-title a {
+.view-our-stories h2.post-title,
+.view-our-stories h2.post-title a {
   color: #E87C42;
   margin: 0;
   text-decoration: none;
@@ -60,3 +75,18 @@ div.teaser p {
   margin: 0;
 }
 
+/* Our Stories
+==========================================*/
+
+div.view-seeing-inequality div.embedded {
+  border-bottom: 1px solid #796D69;
+  padding: 25px 25px 25px 0;
+}
+
+.view-seeing-inequality h2.post-title,
+.view-seeing-inequality h2.post-title a {
+  color: #3FB8C7;
+  margin: 0;
+  text-decoration: none;
+  }
+  
