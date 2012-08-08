@@ -180,3 +180,7 @@
 </div><!-- /#page -->
 
 <?php print render($page['bottom']); ?>
+
+
+<div id="wypr-header"><p>WYPR header needs to go here</p></div>
+<div id="wypr-adcolumn"></div>

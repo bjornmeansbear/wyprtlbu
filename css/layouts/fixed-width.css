@@ -11,11 +11,13 @@
 
 /* customize html.tpl.php for holding WYPR header and ad sidebar */
 /* Initial Space holding for Header and Ad sidebar */
+/*
 #wrapper {
   position: relative;
   width: 960px;
   margin: 0 auto;
   }
+*/
  
 #wypr-header,
 #wypr-adcolumn {
@@ -41,7 +43,7 @@
   right: 0;
   }
 
-#tlbu {
+#page {
   width: 775px;
   margin-top: 245px;
   left: 0;

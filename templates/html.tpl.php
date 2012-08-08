@@ -105,19 +105,9 @@
     </p>
   <?php endif; ?>
     
-  <div id="wrapper">
-    
-    <div id="tlbu">
-      <?php print $page_top; ?>
-      <?php print $page; ?>
-      <?php print $page_bottom; ?>
-    </div>
-
-    <div id="wypr-header"><p>WYPR header needs to go here</p></div>
-    <div id="wypr-adcolumn"></div>
-
-  </div>
-
+    <?php print $page_top; ?>
+    <?php print $page; ?>
+    <?php print $page_bottom; ?>
 
 </body>
 </html>
