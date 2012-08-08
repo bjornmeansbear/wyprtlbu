@@ -28,3 +28,24 @@ Yellow: rgba(252,177,51,1)    #FCB133
   text-indent: -999999px;
   }
   
+
+/* Our Stories
+==========================================*/
+
+h2.post-title,
+h2.post-title a {
+  color: #E87C42;
+  margin: 0;
+  text-decoration: none;
+  }
+  
+div.airdate, 
+div.airdate strong, 
+div.airdate p {
+  margin: 0;
+}
+
+div.airdate p {
+  margin: 0 0 0 12.5px;
+  display: inline-block;
+}
