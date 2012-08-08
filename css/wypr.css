@@ -32,6 +32,11 @@ Yellow: rgba(252,177,51,1)    #FCB133
 /* Our Stories
 ==========================================*/
 
+div.view-our-stories div.segment {
+  border-bottom: 1px solid #796D69;
+  padding: 25px 25px 25px 0;
+}
+
 h2.post-title,
 h2.post-title a {
   color: #E87C42;
@@ -49,3 +54,9 @@ div.airdate p {
   margin: 0 0 0 12.5px;
   display: inline-block;
 }
+
+div.teaser, 
+div.teaser p {
+  margin: 0;
+}
+
