@@ -1,9 +1,22 @@
+/* @override http://wypr.ookb.co/sites/wypr.ookb.co/files/css/css_SVpsn0v4KmMqxcWPw8LcRbxKdH3VVGOTOEqikV_B7JA.css */
+
 /* WYPR custom stlyes for TLBU site */
 
-/* Initial Space holding for Header and Ad sidebar */
-#wypr-header {
-  background: url(i/header-ph.png) center center no-repeat;
-  height: 220px;
-  width: 960px;
-  margin: 0 auto 25px auto;
-}
+
+/*
+==========================================
+*/
+
+#site-name,
+#site-name a {
+  display: block;
+  height: 150px;
+  width: 775px;
+  }
+
+#site-name a {
+  background: url(i/tlbu-banner.png) center center no-repeat;
+  overflow: hidden;
+  text-indent: -999999px;
+  }
+  
