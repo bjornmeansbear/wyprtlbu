@@ -18,8 +18,7 @@
   }
  
 #wypr-header,
-#wypr-adcolumn,
-#tlbu {
+#wypr-adcolumn {
   position: absolute;
   }
  
@@ -44,7 +43,7 @@
 
 #tlbu {
   width: 775px;
-  top: 245px;
+  margin-top: 245px;
   left: 0;
   }
 
