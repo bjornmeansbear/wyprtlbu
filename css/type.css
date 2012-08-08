@@ -1,22 +1,15 @@
-/* @override http://wypr.ookb.co/sites/wypr.ookb.co/files/css/css_SVpsn0v4KmMqxcWPw8LcRbxKdH3VVGOTOEqikV_B7JA.css */
-
-/* WYPR custom stlyes for TLBU site */
-
+/* WYPR custom Typographic styles for TLBU site */
 
 /*
 ==========================================
 */
 
-#site-name,
-#site-name a {
-  display: block;
-  height: 150px;
-  width: 775px;
-  }
+body {
+  font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
 
-#site-name a {
-  background: url(i/tlbu-banner.png) center center no-repeat;
-  overflow: hidden;
-  text-indent: -999999px;
-  }
-  
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
