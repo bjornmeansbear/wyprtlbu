@@ -15,6 +15,7 @@
   position: relative;
   width: 960px;
   margin: 0 auto;
+  top: 0;
   }
  
 #wypr-header,
@@ -44,7 +45,7 @@
 #page {
   position: relative;
   width: 775px;
-  margin-top: 245px;
+  top: 245px;
   left: 0;
   }
 
@@ -52,12 +53,10 @@
  * Center the page.
  */
 
-#page,
 .region-bottom {
   /* If you want to make the page a fixed width and centered in the viewport,
    * this is the standards-compliant way to do that. */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
   width: 775px;
 }
 
