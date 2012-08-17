@@ -94,16 +94,16 @@ div.teaser p {
   margin-right: 12.5px;
 }
 
-#block-views-our-stories-block-1 .views-row h2.title {
+#block-views-our-stories-block-1 .views-row h2.post-title {
   font-size: 200%;
   margin: 12.5px 0 0 0;
 }
 
-#block-views-our-stories-block-1 .views-row .airdate {
+#block-views-our-stories-block-1 .views-row div.airdate {
   margin: 0 0 12.5px 0;
 }
 
-#block-views-our-stories-block-1 .views-row .teaser {
+#block-views-our-stories-block-1 .views-row div.teaser p {
   font-size: 115%;
 }
 
