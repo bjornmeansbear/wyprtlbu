@@ -95,7 +95,8 @@ div.teaser p {
 }
 
 #block-views-our-stories-block-1 .views-row h2.post-title {
-  font-size: 200%;
+  font-size: 150%;
+  line-height: 100%;
   margin: 12.5px 0 0 0;
 }
 
