@@ -182,7 +182,14 @@
   
   <?php print render($page['bottom']); ?>
   
-  <div id="wypr-header"><p>WYPR header needs to go here</p></div>
+  <div id="wypr-header">
+    <div><p>Temporary placeholder for links</p></div>
+    <hgroup>
+      <h2><a id="stations">Radio Station Listings</a></h2>
+	      <h2><a id="wyprlogo">WYPR logo</a></h2>
+      <h2><a id="morninglogo">Maryland Morning Logo</a></h2>
+    </hgroup>
+  </div>
   <div id="wypr-adcolumn"></div>
 
 </div>
