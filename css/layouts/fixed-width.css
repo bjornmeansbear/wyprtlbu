@@ -47,7 +47,7 @@
 #page {
   position: relative;
   width: 800px;
-  top: 125px;
+  top: 137.5px;
   left: -12.5px;
   }
 
@@ -108,15 +108,14 @@
  */
 
 #main {
-  padding-top: 3em; /* Move all the children of #main down to make room. */
+  padding-top: 75px; /* Move all the children of #main down to make room. */
   position: relative;
 }
 
 #navigation {
   position: absolute;
   top: 0; /* Move the navbar up inside #main's padding. */
-  height: 3em;
-  width: 775px;
+  height: 50px;
 }
 
 /*
