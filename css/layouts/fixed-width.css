@@ -62,6 +62,11 @@
   width: 775px;
 }
 
+footer {
+  width: 775px;
+  margin: 0 12.5px;
+}
+
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
@@ -108,6 +113,7 @@
  */
 
 #main {
+  margin: 0 12.5px;
   padding-top: 75px; /* Move all the children of #main down to make room. */
   position: relative;
 }
