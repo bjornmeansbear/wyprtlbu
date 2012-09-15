@@ -13,3 +13,19 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
+
+
+/* COLOR INFO */
+/*
+Orange: rgba(232,124,66,1)    #E87C42
+Brown:  rgba(121,109,105,1)   #796D69
+Blue:   rgba(63,184,199,1)    #3FB8C7
+Yellow: rgba(252,177,51,1)    #FCB133
+*/
+
+/* Color Rules, Etc.
+==========================================
+*/
+
+html, body { color: black; }
+a, a:link, a:visited, a:hover, a:active, a.active { color:#796D69; text-decoration: none; }
