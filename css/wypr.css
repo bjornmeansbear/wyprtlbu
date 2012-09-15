@@ -1,3 +1,65 @@
+/* WYPR styles for header from old site (and to place logos) */
+
+#wypr-header nav#tk {
+  background: #009ddc;
+  height: 52px;
+  margin-bottom: 12px;
+}
+
+#wypr-header nav#tk p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#wypr-header div#btyb {
+  width: 985px;
+  margin-left: -12.5px;
+}
+
+.dark_grey_small, .light_grey_small {
+font-size: 10px;
+line-height: 12px;
+}
+
+.light_grey_small, .light_grey_normal, .light_grey_large {
+color: #939598;
+}
+
+.dark_grey_small, .dark_grey_normal, .dark_grey_large {
+color: #4D4D4F;
+}
+
+#wypr-header div.content p {
+  color: #4D4D4F;
+  display: block;
+  font-family: Helvetica, 'Nimbus Sans L', Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 213px;
+}
+
+#wypr-header h2 a#wyprlogo,
+#wypr-header h2 a#morninglogo {
+  display: block;
+  height: 36px;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+
+#wypr-header h2 a#wyprlogo {
+  background: url(i/wypr.png) left top no-repeat;
+  width: 161px;
+}
+
+#wypr-header h2 a#morninglogo {
+  background: url(i/mdmng.png) left top no-repeat;
+  width: 239px;
+}
 
 /* WYPR custom stlyes for TLBU site */
 
@@ -19,6 +81,11 @@
 .eight.columns,
 .fullwidth       { width: 775px; }
 
+.clear           { clear: both; display: block; }
+.left            { float: left; }
+.right           { float: right; }
+
+  
 /* COLOR INFO */
 /*
 Orange: rgba(232,124,66,1)    #E87C42

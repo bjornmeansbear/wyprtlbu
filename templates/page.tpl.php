@@ -183,12 +183,16 @@
   <?php print render($page['bottom']); ?>
   
   <div id="wypr-header">
-    <div><p>Temporary placeholder for links</p></div>
-    <hgroup>
-      <h2><a id="stations">Radio Station Listings</a></h2>
-	      <h2><a id="wyprlogo">WYPR logo</a></h2>
-      <h2><a id="morninglogo">Maryland Morning Logo</a></h2>
-    </hgroup>
+    <nav id="tk"><p>Temporary placeholder for links</p></nav>
+    <div id="btyb">
+      <h2 class="columns"><a id="wyprlogo" href="http://wypr.org">WYPR logo</a></h2>
+      <div class="content columns">
+        <p><span class="light_grey_small">WYPF </span><span class="dark_grey_small">88.1 FM </span><span class="light_grey_small">FREDERICK / HAGERSTOWN</span><br>
+        <span class="light_grey_small">WYPO </span><span class="dark_grey_small">106.9 FM </span><span class="light_grey_small">EASTERN SHORE</span></p>
+      </div>
+      <h2 class="columns"><a id="morninglogo">Maryland Morning Logo</a></h2>
+      <br class="clear"/>
+    </div>
   </div>
   <div id="wypr-adcolumn"></div>
 
