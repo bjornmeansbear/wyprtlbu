@@ -132,7 +132,6 @@
         <?php endif; ?>
         <?php print render($page['content_top']); ?>
         <?php print render($page['content']); ?>
-        <?php print render($page['content_bottom']); ?>
         <?php print $feed_icons; ?>
       </div><!-- /#content -->
   
@@ -175,6 +174,8 @@
           <?php print $sidebar_second; ?>
         </aside><!-- /.sidebars -->
       <?php endif; ?>
+
+      <?php print render($page['content_bottom']); ?>
   
     </div><!-- /#main -->
   
