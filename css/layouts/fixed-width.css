@@ -191,3 +191,13 @@ footer {
   margin-left: 600px;
   margin-right: -775px;
 }
+
+/*
+Content Top and Content Bottom
+*/
+
+#content_bottom {
+  width: 800px;
+  margin: 0 -12.5px;
+}
+
