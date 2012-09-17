@@ -175,8 +175,10 @@
         </aside><!-- /.sidebars -->
       <?php endif; ?>
 
-      <?php print render($page['content_bottom']); ?>
-  
+      <section id="content_bottom" class="clear clearfix">
+        <?php print render($page['content_bottom']); ?>
+      </section>
+      
     </div><!-- /#main -->
   
     <?php print render($page['footer']); ?>
