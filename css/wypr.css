@@ -204,3 +204,37 @@ div.view-seeing-inequality div.embedded {
   background-position-x: -775px;
 }
   
+
+/* Twitter Block Styles
+==========================================*/
+.view-tweets {
+  border: 1px solid #796D69;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.view-tweets ul.tweets{
+  list-style: none;
+  margin: 0;
+  padding: 6.25px;
+}
+
+.view-tweets ul.tweets li.tweet {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 6.25px;
+}
+
+.view-tweets ul.tweets li.tweet:last-child {
+  border-bottom: none;
+}
+
+.view-tweets ul.tweets li.tweet p {
+  margin: 0;
+}
+
+.view-tweets ul.tweets li.tweet p.date {
+  font-size: 11px;
+  color: #999;
+}
