@@ -282,7 +282,10 @@ div.view-seeing-inequality div.embedded {
 div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item a {
   background: gray;
   display: block;
+  float:left;
   height: 26px;
+  margin: 12.5px 12.5px 0 0;
+  padding: 0;
   overflow: hidden;
   text-indent: -99999px;
   width: 26px;
