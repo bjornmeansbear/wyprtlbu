@@ -309,3 +309,8 @@ div.views-slideshow-controls-bottom #views_slideshow_pager_field_item_bottom_fro
   background: #FCB133;
 }
 
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item.active a, 
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item:hover a {
+  opacity: .66;
+}
+
