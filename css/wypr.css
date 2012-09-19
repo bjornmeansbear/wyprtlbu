@@ -275,8 +275,8 @@ div.view-seeing-inequality div.embedded {
 }
 
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-controls-bottom {
-  position: relative;
-  z-index: 9;
+  position: absolute;
+  z-index: 10;
 }
 
 div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item a {
