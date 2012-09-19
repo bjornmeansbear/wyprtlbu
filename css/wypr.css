@@ -269,3 +269,8 @@ div.view-seeing-inequality div.embedded {
   top: 0;
   left: 0;
 }
+
+#views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-controls-bottom {
+  position: relative;
+  z-index: 9;
+}
