@@ -241,11 +241,23 @@ div.view-seeing-inequality div.embedded {
 
 /* Frontpage Slideshow 
 ==========================================*/
+#views_slideshow_cycle_main_frontpage_slideshow-page,
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item > a,
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item > a img {
   display: block;
   height:250px;
   width: 475px;
+}
+
+#views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item h3,
+#views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item p {
+  display: block;
+  height:250px;
+  width: 175px;
+}
+
+#views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item > a,
+#views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item > a img {  
   position: relative;
   top: 0;
   left: 0;
