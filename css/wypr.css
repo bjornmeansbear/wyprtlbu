@@ -322,6 +322,7 @@ div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item:hover a
   opacity: .66;
 }
 
+div.views-slideshow-controls-bottom {z-index: 9;}
 div#views_slideshow_cycle_teaser_section_frontpage_slideshow-page {
   z-index: 6;
 }
