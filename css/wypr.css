@@ -279,8 +279,8 @@ div.view-seeing-inequality div.embedded {
   z-index: 9;
 }
 
-div.views-slideshow-controls-bottom div.views-content-field-site-section a.views-ajax-processed-processed {
-  background: #DF7846;
+div.views-slideshow-controls-bottom div.views-slideshow-pager-field-item a {
+  background: gray;
   display: block;
   height: 26px;
   overflow: hidden;
@@ -293,3 +293,16 @@ div.views-slideshow-controls-bottom div.views-content-field-site-section a.views
   -o-border-radius: 13px;
   -ms-border-radius: 13px;
 }
+
+div.views-slideshow-controls-bottom #views_slideshow_pager_field_item_bottom_frontpage_slideshow-page_0 a {
+  background: #DF7846;
+}
+
+div.views-slideshow-controls-bottom #views_slideshow_pager_field_item_bottom_frontpage_slideshow-page_1 a {
+  background: #3FB8C7;
+}
+
+div.views-slideshow-controls-bottom #views_slideshow_pager_field_item_bottom_frontpage_slideshow-page_2 a {
+  background: #FCB133;
+}
+
