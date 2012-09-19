@@ -238,3 +238,18 @@ div.view-seeing-inequality div.embedded {
   font-size: 11px;
   color: #999;
 }
+
+/* Frontpage Slideshow 
+==========================================*/
+div.views-slideshow-cycle-main-frame-row-item > a,
+div.views-slideshow-cycle-main-frame-row-item > a img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.views-slideshow-cycle-main-frame-row-item h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
