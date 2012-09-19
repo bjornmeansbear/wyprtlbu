@@ -197,10 +197,8 @@ Content Top and Content Bottom
 */
 
 #content_bottom {
-  border-top: 1px solid #796D69;
-  border-bottom: 1px solid #796D69;
-  width: 800px;
   margin: 25px -12.5px;
-  padding: 12.5px 0;
+  padding: 25px 0;
+  width: 800px;
 }
 
