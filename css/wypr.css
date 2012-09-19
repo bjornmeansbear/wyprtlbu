@@ -278,3 +278,18 @@ div.view-seeing-inequality div.embedded {
   position: relative;
   z-index: 9;
 }
+
+div.views-slideshow-controls-bottom div.views-content-field-site-section a.views-ajax-processed-processed {
+  background: #DF7846;
+  display: block;
+  height: 26px;
+  overflow: hidden;
+  text-indent: -99999px;
+  width: 26px;
+  /**/
+  border-radius: 13px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -o-border-radius: 13px;
+  -ms-border-radius: 13px;
+}
