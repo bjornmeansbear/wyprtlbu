@@ -261,13 +261,17 @@ div.view-seeing-inequality div.embedded {
   position: relative;
   top: 0;
   left: 0;
+  z-index: 7;
 }
 
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item h3,
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-cycle-main-frame-row-item p {
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 8;
 }
 
 #views_slideshow_cycle_div_frontpage_slideshow-page_0 div.views-slideshow-controls-bottom {
