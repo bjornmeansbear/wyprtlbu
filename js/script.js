@@ -11,12 +11,12 @@
 // wrapping it with an "anonymous closure". See:
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
-(function ($, Drupal, window, document, undefined) {
 
-// Place your code here.
-  Drupal.behaviors.kbslideshow = {
-    attach: function (context, settings) {
-      $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+
+jQuery(document).ready(function($) {
+ 
+  /*** Your custom code goes here ***/
+  $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
         .after('<div id="slidenav">')
         .cycle({ 
           fx:     'fade', 
@@ -24,8 +24,5 @@
           timeout: 0,
           pager:  '#slidenav'
       });
-    
-    }
-  };
-
-})(jQuery, Drupal, this, this.document);
+  
+});
