@@ -7,23 +7,6 @@
  */
 
 
-
-
-    $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
-      .after('<div id="slidenav">')
-      .cycle({ 
-        fx:     'fade', 
-        speed:  'fast', 
-        timeout: 0,
-        pager:  '#slidenav'
-    });
-
-
-
-
-
-
-
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - http://drupal.org/node/1446420
@@ -31,5 +14,18 @@
 (function ($, Drupal, window, document, undefined) {
 
 // Place your code here.
+  Drupal.behaviors.kbslideshow = {
+    attach: function (context, settings) {
+      $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+        .after('<div id="slidenav">')
+        .cycle({ 
+          fx:     'fade', 
+          speed:  'fast', 
+          timeout: 0,
+          pager:  '#slidenav'
+      });
+    
+    }
+  };
 
 })(jQuery, Drupal, this, this.document);
