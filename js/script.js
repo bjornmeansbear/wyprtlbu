@@ -5,24 +5,36 @@
  * In order for this JavaScript to be loaded on pages, see the instructions in
  * the README.txt next to this file.
  */
-
-
-// JavaScript should be made compatible with libraries other than jQuery by
-// wrapping it with an "anonymous closure". See:
-// - http://drupal.org/node/1446420
-// - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
-
-
-jQuery(document).ready(function($) {
  
-  /*** Your custom code goes here ***/
+
+(function ($, Drupal, window, document, undefined) {
+
+// Place your code here.
+Drupal.behaviors.wyprtlbuthemefx = function (context) {
   $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
-        .after('<div id="slidenav">')
-        .cycle({ 
-          fx:     'fade', 
-          speed:  'fast', 
-          timeout: 0,
-          pager:  '#slidenav'
-      });
-  
+    .after('<div id="slidenav">')
+    .cycle({ 
+      fx:     'fade', 
+      speed:  'fast', 
+      timeout: 0,
+      pager:  '#slidenav'
+  });  
+};
+
+})(jQuery, Drupal, this, this.document);
+
+/* I commented out the original code here as I could not figure out how to use it... */
+/* I found this actually helpful: http://www.digett.com/blog/02/15/2012/how-add-presentational-javascript-your-drupal-7-site */
+
+/*
+jQuery(document).ready(function($) {
+  $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+    .after('<div id="slidenav">')
+    .cycle({ 
+      fx:     'fade', 
+      speed:  'fast', 
+      timeout: 0,
+      pager:  '#slidenav'
+  });  
 });
+*/
