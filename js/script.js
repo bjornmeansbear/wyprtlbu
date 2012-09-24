@@ -15,7 +15,7 @@
 
 // Place your code here.
 
-    $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+    jQuery('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
       .after('<div id="slidenav">')
       .cycle({ 
         fx:     'fade', 
