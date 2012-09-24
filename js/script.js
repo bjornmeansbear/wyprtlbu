@@ -25,6 +25,13 @@
 
 })(jQuery, Drupal, this, this.document);
 
+
+
+
+
+
+
+/** Okay, this will work if the upper stuff doesnt **/
  /* I commented out the original code here as I could not figure out how to use it... */
  /* I found this actually helpful: http://www.digett.com/blog/02/15/2012/how-add-presentational-javascript-your-drupal-7-site */
 

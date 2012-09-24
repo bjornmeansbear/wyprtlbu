@@ -85,7 +85,12 @@ color: #4D4D4F;
 .left            { float: left; }
 .right           { float: right; }
 
-  
+.add-top    { margin-top:    12.5px; }
+.add-right  { margin-right:  12.5px; }
+.add-bottom { margin-bottom: 12.5px; }
+.add-left   { margin-left:   12.5px; }
+
+
 /* COLOR INFO */
 /*
 Orange: rgba(232,124,66,1)    #E87C42
@@ -166,11 +171,6 @@ div.teaser p {
 }
 
 /* bigger lead block for newest segment */
-#block-views-our-stories-block-1 .views-row img {
-  float: left;
-  margin-right: 12.5px;
-}
-
 #block-views-our-stories-block-1 .views-row h2.post-title {
   font-size: 150%;
   line-height: 100%;
