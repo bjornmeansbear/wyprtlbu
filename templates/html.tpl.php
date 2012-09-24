@@ -109,7 +109,5 @@
     <?php print $page; ?>
     <?php print $page_bottom; ?>
 
-  <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
-
 </body>
 </html>

@@ -15,5 +15,15 @@
 
 // Place your code here.
 
+    $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+    .after('<div id="slidenav">')
+    .cycle({ 
+        fx:     'fade', 
+        speed:  'fast', 
+        timeout: 0,
+        pager:  '#slidenav'
+    });
+
+
 
 })(jQuery, Drupal, this, this.document);
