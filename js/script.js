@@ -6,39 +6,37 @@
  * the README.txt next to this file.
  */
  
-
-(function ($, Drupal, window, document, undefined) {
+ (function ($, Drupal, window, document, undefined) {
 
 // Place your code here.
-Drupal.behaviors.wyprtlbuthemefx = function (context) {
-  $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
-    .after('<div id="slidenav">')
-    .cycle({ 
-      fx:     'fade', 
-      speed:  'fast', 
-      timeout: 0,
-      pager:  '#slidenav'
-  });  
-};
+  Drupal.behaviors.kbslideshow = {
+    attach: function (context, settings) {
+      $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+        .after('<div id="slidenav">')
+        .cycle({ 
+          fx:     'fade', 
+          speed:  'fast', 
+          timeout: 0,
+          pager:  '#slidenav'
+      });
+    
+    }
+  };
 
 })(jQuery, Drupal, this, this.document);
 
-/* hopefully this explains what I need to know in the future... http://drupal.org/node/304258 */
-
-
-
-/* I commented out the original code here as I could not figure out how to use it... */
-/* I found this actually helpful: http://www.digett.com/blog/02/15/2012/how-add-presentational-javascript-your-drupal-7-site */
+ /* I commented out the original code here as I could not figure out how to use it... */
+ /* I found this actually helpful: http://www.digett.com/blog/02/15/2012/how-add-presentational-javascript-your-drupal-7-site */
 
 /*
 jQuery(document).ready(function($) {
-  $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
-    .after('<div id="slidenav">')
-    .cycle({ 
-      fx:     'fade', 
-      speed:  'fast', 
-      timeout: 0,
-      pager:  '#slidenav'
-  });  
-});
+   $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+        .after('<div id="slidenav">')
+        .cycle({ 
+          fx:     'fade', 
+          speed:  'fast', 
+          timeout: 0,
+          pager:  '#slidenav'
+      });
+    });
 */
