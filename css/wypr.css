@@ -125,6 +125,10 @@ h1#page-title {
   padding-top: 12.5px;
 }
 
+  /* colorize stripe for main three sections... */
+  .section-our-stories #navigation, .section-our-stories #navigation nav  { background-position-x: -1550px; }
+
+
 /* Our Stories
 ==========================================*/
 .section-our-stories h1#page-title {
