@@ -54,6 +54,7 @@ color: #4D4D4F;
 #wypr-header h2 a#wyprlogo {
   background: url(i/wypr.png) left top no-repeat;
   width: 161px;
+  height: 49px;
 }
 
 #wypr-header h2 a#morninglogo {
@@ -132,8 +133,8 @@ h1#page-title {
 }
 
   /* colorize stripe for main three sections... */
-  .section-our-stories #navigation, .section-our-stories #navigation nav             { background-position-x: -1550px; }
   .section-seeing-inequality #navigation, .section-seeing-inequality #navigation nav { background-position-x:  -775px; }
+  .section-our-stories #navigation, .section-our-stories #navigation nav             { background-position-x: -1550px; }
   .section-your-stories #navigation, .section-your-stories #navigation nav           { background-position-x: -2325px; }
 
 

@@ -188,7 +188,7 @@
   <?php print render($page['bottom']); ?>
   
   <div id="wypr-header">
-    <nav id="tk"><p>Temporary placeholder for links</p></nav>
+    <div id="bluestripe"></div>
     <div id="btyb">
       <h2 class="columns"><a id="wyprlogo" href="http://wypr.org">WYPR logo</a></h2>
       <div class="content columns">
