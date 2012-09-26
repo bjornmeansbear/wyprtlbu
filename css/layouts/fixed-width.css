@@ -198,7 +198,7 @@ Content Top and Content Bottom
 
 #content_bottom {
   margin: 25px -12.5px;
-  padding: 25px 0;
+/*   padding: 25px 0; */
   width: 800px;
 }
 
