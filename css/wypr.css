@@ -1,6 +1,6 @@
 /* WYPR styles for header from old site (and to place logos) */
 
-#wypr-header nav#tk {
+#wypr-header div#bluestripe {
   background: #009ddc;
   height: 52px;
   margin-bottom: 12px;

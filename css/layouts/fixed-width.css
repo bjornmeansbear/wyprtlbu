@@ -25,10 +25,10 @@
  
 #wypr-header {
   border-bottom: 1px solid black;
-  height: 100px;
+  height: 68px;
   width: 960px;
   margin: 0;
-  padding: 0 0 24px 0;
+  padding: 0 0 19px 0;
   /**/
   top: 0;
   left: 0;
@@ -40,14 +40,14 @@
   min-height: 600px;
   width: 160px;
   /**/
-  top: 125px;
+  top: 88px;
   right: 0;
   }
 
 #page {
   position: relative;
   width: 800px;
-  top: 137.5px;
+  top: 100.5px;
   left: -12.5px;
   }
 
