@@ -51,6 +51,12 @@
   left: -12.5px;
   }
 
+#search_block {
+  position: absolute;
+  top: 32.5px;
+  right: 0;
+}
+
 /*
  * Center the page.
  */

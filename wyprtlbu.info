@@ -20,7 +20,6 @@ description = Sub Theme of Zen. Built by Kristian Bjornard for WYPR
 core        = 7.x
 base theme  = zen
 
-
 ; This section controls the CSS files for your theme. There are 3 different
 ; things you can do with a "stylesheets" line:
 ; - Add a new stylesheet for your theme.
@@ -62,8 +61,6 @@ stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/wypr.css
 stylesheets[all][] = css/print.css
 
-
-
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
 ; element, such as .lt-ie9, .lt-ie8, .lt-ie7. More information on this
@@ -73,8 +70,6 @@ stylesheets[all][] = css/print.css
 ; If you still wish to use conditional stylesheets, you must install the
 ; conditional stylesheets module: http://drupal.org/project/conditional_styles
 ;stylesheets-conditional[lte IE 8][all][] = css/ie8.css
-
-
 
 ; Optionally add some JavaScripts to your theme.
 
@@ -116,7 +111,6 @@ regions[search_block]   = Search Block
 
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom
-
 
 
 ; Various page elements output by the theme can be toggled on and off. The
