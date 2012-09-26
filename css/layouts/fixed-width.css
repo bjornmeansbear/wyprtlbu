@@ -202,6 +202,10 @@ footer {
 Content Top and Content Bottom
 */
 
+#content {
+  margin-bottom: 25px;
+}
+
 #content_bottom {
   margin: 25px -12.5px;
 /*   padding: 25px 0; */
