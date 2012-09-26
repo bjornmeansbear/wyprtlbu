@@ -127,7 +127,8 @@ h1#page-title {
 }
 
 #navigation nav, 
-#content_bottom .block.columns {
+#content_bottom .block.columns,
+#footer {
   background: url(i/tlbustripes.png) left top no-repeat;
   padding-top: 12.5px;
 }

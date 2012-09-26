@@ -92,6 +92,8 @@ footer {
   _overflow-y: visible;
 }
 
+#footer {margin-top: 25px;}
+
 /*
  * Containers for grid items and flow items.
  */
