@@ -276,3 +276,23 @@ div.teaser p {
 #block-views-frontpage-slideshow-block-1 #slidenav a {
   background: #FCB133;
 }
+
+/* Funders FOOTER BLOCK */
+div.funders ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.funders ul li.funder{
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 25px 0 0;
+  padding: 0;
+}
+
+div.funders ul li:last-child {
+  margin: 0;
+}
+
