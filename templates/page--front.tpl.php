@@ -199,6 +199,7 @@
       <br class="clear"/>
     </div>
   </div>
+  <div id="search_block"><?php print render($page['search_block']); ?></div>
   <div id="wypr-adcolumn"></div>
 
 </div>
