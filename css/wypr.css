@@ -241,6 +241,7 @@ div.region-glider div.glider .view .view-content .slide p {
   padding: 12.5px;
   width:175px;
   left:0;
+  z-index: 9;
 }
 div.region-glider div.glider .view .view-content .view-content:hover .slide h3.title,
 div.region-glider div.glider .view .view-content .view-content:hover .slide p {
@@ -256,7 +257,7 @@ div.region-glider div.glider .view .view-content .slide p {
   color: white;
   top: 50px;
 }
-div.region-glider #slidenav a {
+#slidenav a {
   background: #3FB8C7;
   display: block;
   height:26px;
@@ -274,11 +275,11 @@ div.region-glider #slidenav a {
   -ms-border-radius: 13px;
 }
 
-div.region-glider #slidenav a:first-child {
+#slidenav a:first-child {
   background: #DF7846;
 }
 
-div.region-glider #slidenav a:last-child {
+#slidenav a:last-child {
   background: #FCB133;
 }
 
