@@ -255,7 +255,15 @@ div.region-glider div.glider .view .view-content .slide h3.title {
 }
 div.region-glider div.glider .view .view-content .slide p {
   color: white;
+  font-size: 12px;
+  line-height: 14px;
+  height: 175px;
+  overflow: hidden;
   top: 50px;
+}
+div.region-glider div.glider .view .view-content .slide p a {
+  color: #DDD;
+  text-decoration: underline;
 }
 #slidenav a {
   background: #3FB8C7;
