@@ -317,152 +317,114 @@ div.funders ul li.funder a {
 
 /* JPlayer Customization
 ==========================================*/
-div.jp-audio {
-	width:420px;
+.field-item div.jp-audio {
+  width:420px;
 }
 
-div.jp-interface {
-	position: relative;
-	background-color:#eee;
-	/* width:418px; */
-	width:100%;
-	border:1px solid #796D69;
+.field-item div.jp-interface {
+  position: relative;
+  background-color:#eee;
+  /* width:418px; */
+  width:100%;
+  border:1px solid #796D69;
 }
 
-div.jp-audio div.jp-type-single div.jp-interface {
-	height:50px;
-	border-bottom:none;
+.field-item div.jp-audio div.jp-type-single div.jp-interface {
+  height:50px;
+  border-bottom:none;
 }
 
-div.jp-audio div.jp-type-playlist div.jp-interface {
-	height:50px;
+.field-item div.jp-audio div.jp-type-playlist div.jp-interface {
+  height:50px;
 }
 
-div.jp-video div.jp-type-single div.jp-interface {
-	height:40px;
-	border-bottom:none;
-}
-
-div.jp-video div.jp-type-playlist div.jp-interface {
-	height:40px;
-}
-
-div.jp-interface ul.jp-controls {
-	list-style-type:none;
-	padding:0;
-	margin: 0;
-}
-
-div.jp-interface ul.jp-controls li {
-	display:inline;
-}
-
-div.jp-interface ul.jp-controls a {
-	position: absolute;
-	overflow:hidden;
-	text-indent:-9999px;
-}
-
-a.jp-play,
-a.jp-pause {
-	width:40px;
-	height:40px;
-	z-index:1;
-}
-
-div.jp-audio div.jp-type-single a.jp-play,
-div.jp-audio div.jp-type-single a.jp-pause {
+.field-item div.jp-audio div.jp-type-single a.jp-play,
+.field-item div.jp-audio div.jp-type-single a.jp-pause {
   top: 5px !important;
   left: 84px !important;
 }
 
-div.jp-audio div.jp-type-single a.jp-stop {
+.field-item div.jp-audio div.jp-type-single a.jp-stop {
   top: 11px !important;
   left: 128px !important;
 }
 
-div.jp-progress {
-	position: absolute;
-	overflow:hidden;
-	background-color: #ddd;
+.field-item div.jp-progress {
+  position: absolute;
+  overflow:hidden;
+  background-color: #ddd;
 }
 
-div.jp-audio div.jp-type-single div.jp-progress {
-	top:17px;
-	left:130px;
-	width:122px;
-	height:15px;
+.field-item div.jp-audio div.jp-type-single div.jp-progress {
+  top:17px;
+  left:130px;
+  width:122px;
+  height:15px;
 }
 
-div.jp-audio div.jp-type-playlist div.jp-progress {
-	top:17px;
-	left:164px;
-	width:122px;
-	height:15px;
+.field-item div.jp-audio div.jp-type-playlist div.jp-progress {
+  top:17px;
+  left:164px;
+  width:122px;
+  height:15px;
 }
 
-a.jp-mute,
-a.jp-unmute {
-	width:18px;
-	height:15px;
+.field-item div.jp-audio div.jp-type-single a.jp-mute,
+.field-item div.jp-audio div.jp-type-single a.jp-unmute {
+  top:17px;
+  left:274px;
 }
 
-div.jp-audio div.jp-type-single a.jp-mute,
-div.jp-audio div.jp-type-single a.jp-unmute {
-	top:17px;
-	left:274px;
+.field-item div.jp-audio div.jp-type-playlist a.jp-mute,
+.field-item div.jp-audio div.jp-type-playlist a.jp-unmute {
+  top:17px;
+  left:296px;
 }
 
-div.jp-audio div.jp-type-playlist a.jp-mute,
-div.jp-audio div.jp-type-playlist a.jp-unmute {
-	top:17px;
-	left:296px;
+.field-item div.jp-volume-bar {
+  position: absolute;
+  overflow:hidden;
+  width:46px;
+  height:5px;
+  cursor: pointer;
 }
 
-div.jp-volume-bar {
-	position: absolute;
-	overflow:hidden;
-	width:46px;
-	height:5px;
-	cursor: pointer;
+.field-item div.jp-audio div.jp-type-single div.jp-volume-bar {
+  top:22px;
+  left:302px;
 }
 
-div.jp-audio div.jp-type-single div.jp-volume-bar {
-	top:22px;
-	left:302px;
+.field-item div.jp-audio div.jp-type-playlist div.jp-volume-bar {
+  top:22px;
+  left:324px;
 }
 
-div.jp-audio div.jp-type-playlist div.jp-volume-bar {
-	top:22px;
-	left:324px;
+.field-item div.jp-volume-bar-value {
+  width:0px;
+  height:5px;
 }
 
-div.jp-volume-bar-value {
-	width:0px;
-	height:5px;
+.field-item div.jp-current-time,
+.field-item div.jp-duration {
+  position: absolute;
+  font-size:10px;
+  font-style:oblique;
 }
 
-div.jp-current-time,
-div.jp-duration {
-	position: absolute;
-	font-size:10px;
-	font-style:oblique;
+.field-item div.jp-duration {
+  text-align: right;
 }
 
-div.jp-duration {
-	text-align: right;
+.field-item div.jp-audio div.jp-type-single div.jp-current-time,
+.field-item div.jp-audio div.jp-type-single div.jp-duration {
+  top:34px;
+  left:130px;
+  width:122px;
 }
 
-div.jp-audio div.jp-type-single div.jp-current-time,
-div.jp-audio div.jp-type-single div.jp-duration {
-	top:34px;
-	left:130px;
-	width:122px;
-}
-
-div.jp-audio div.jp-type-playlist div.jp-current-time,
-div.jp-audio div.jp-type-playlist div.jp-duration {
-	top:34px;
-	left:164px;
-	width:122px;
+.field-item div.jp-audio div.jp-type-playlist div.jp-current-time,
+.field-item div.jp-audio div.jp-type-playlist div.jp-duration {
+  top:34px;
+  left:164px;
+  width:122px;
 }
