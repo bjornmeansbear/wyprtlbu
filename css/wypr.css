@@ -140,6 +140,7 @@ h1#page-title {
 
 /* Get rid od basic page headers for "node-type-page" */
 body.node-type-page #content > h1.title,
+body.page-node-76 #content > h1.title,
 body.page-contact #content > h1.title {display:none;}
 
 /* Our Stories
