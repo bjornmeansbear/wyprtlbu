@@ -34,9 +34,9 @@ li.menu-389 a { color: rgba(63,184,199,1); }
 li.menu-470 a { color: rgba(252,177,51,1); }
 #man-menu ul.links li a.active { border-bottom: 1px solid; }
 
-.os h3, .os h3 a {color:#E87C42;}
-.si h3, .si h3 a {color:#3FB8C7;}
-.ys h3, .ys h3 a {color:#FCB133;}
+.os h3, .os h3 a, .view-display-id-block_2 h3.title {color:#E87C42;}
+.si h3, .si h3 a, .view-display-id-block_3 h3.title {color:#3FB8C7;}
+.ys h3, .ys h3 a, .view-display-id-block_4 h3.title {color:#FCB133;}
 
 .pagelisting h3.post-title {
   font-size: 150%;

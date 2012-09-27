@@ -32,6 +32,7 @@ ul li.leaf {
 
 li a.active {
   color: #000;
+  border-bottom: 1px solid
 }
 
 /*
