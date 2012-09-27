@@ -195,7 +195,7 @@
         <p><span class="light_grey_small">WYPF </span><span class="dark_grey_small">88.1 FM </span><span class="light_grey_small">FREDERICK / HAGERSTOWN</span><br>
         <span class="light_grey_small">WYPO </span><span class="dark_grey_small">106.9 FM </span><span class="light_grey_small">EASTERN SHORE</span></p>
       </div>
-      <h2 class="columns"><a id="morninglogo">Maryland Morning Logo</a></h2>
+      <h2 class="columns"><a id="morninglogo" href="http://www.wypr.org/stationprogram/marylandmorning">Maryland Morning Logo</a></h2>
       <br class="clear"/>
     </div>
   </div>
