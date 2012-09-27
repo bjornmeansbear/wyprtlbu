@@ -11,15 +11,16 @@
 // Place your code here.
   Drupal.behaviors.kbslideshow = {
     attach: function (context, settings) {
-      $('div.region-glider')
+      $('div.region-glider div#block-views-frontpage-slideshow-block-4')
         .after('<div id="slidenav">')
+      });
+      $('div.region-glider')
         .cycle({ 
           fx:     'fade', 
           speed:  'fast', 
           timeout: 0,
           pager:  '#slidenav'
       });
-    
     }
   };
 

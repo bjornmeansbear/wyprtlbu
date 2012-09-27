@@ -222,17 +222,18 @@ div.teaser p {
 
 /* Frontpage Slideshow 
 ==========================================*/
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 {position:relative;}
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content, 
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide, 
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide a, 
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide a img {
+div.region-glider div.glider,
+div.region-glider div.glider .view, 
+div.region-glider div.glider .view .view-content, 
+div.region-glider div.glider .view .view-content .slide, 
+div.region-glider div.glider .view .view-content .slide a, 
+div.region-glider div.glider .view .view-content .slide a img {
   position: relative;
   height:250px;
   width:475px;
 }
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide h3,
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide p {
+div.region-glider div.glider .view .view-content .slide h3.title,
+div.region-glider div.glider .view .view-content .slide p {
   display: none;
   font-size: 95%;
   position: absolute;
@@ -241,22 +242,22 @@ div.teaser p {
   width:175px;
   left:0;
 }
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content:hover .slide h3,
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content:hover .slide p {
+div.region-glider div.glider .view .view-content .view-content:hover .slide h3.title,
+div.region-glider div.glider .view .view-content .view-content:hover .slide p {
   display: block;
 }
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide h3 {
-  background: rgba(0,0,0,.5);
+div.region-glider div.glider .view .view-content .view-content .slide h3.title {
+  background: rgba(121,109,105,.66);
   color: white;
   height:225px;
   top:0;
 }
-#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content .slide p {
+div.region-glider div.glider .view .view-content .slide p {
   color: white;
   top: 50px;
 }
-#block-views-frontpage-slideshow-block-1 #slidenav a {
-  background: gray;
+div.region-glider #slidenav a {
+  background: #3FB8C7;
   display: block;
   height:26px;
   width:26px;
@@ -273,15 +274,11 @@ div.teaser p {
   -ms-border-radius: 13px;
 }
 
-#block-views-frontpage-slideshow-block-1 #slidenav a {
+div.region-glider #slidenav a:first-child {
   background: #DF7846;
 }
 
-#block-views-frontpage-slideshow-block-1 #slidenav a {
-  background: #3FB8C7;
-}
-
-#block-views-frontpage-slideshow-block-1 #slidenav a {
+div.region-glider #slidenav a:last-child {
   background: #FCB133;
 }
 
