@@ -266,9 +266,10 @@ div.region-glider div.glider .view .view-content .slide p a {
 }
 #slidenav a {
   background: #3FB8C7;
+  border: 2px solid white; 
   display: block;
-  height:26px;
-  width:26px;
+  height:24px;
+  width:24px;
   float:left;
   margin: 12.5px 12.5px 0 0;
   padding: 0;
@@ -283,7 +284,7 @@ div.region-glider div.glider .view .view-content .slide p a {
 }
 
 #slidenav a.activeSlide {
-  border: 1px solid #796D69; 
+  border: 2px solid #796D69; 
 }
 
 #slidenav a:hover {
