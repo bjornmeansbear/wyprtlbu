@@ -11,7 +11,7 @@
 // Place your code here.
   Drupal.behaviors.kbslideshow = {
     attach: function (context, settings) {
-      $('#block-views-frontpage-slideshow-block-1 .view-display-id-block_1 .view-content')
+      $('div.region-glider')
         .after('<div id="slidenav">')
         .cycle({ 
           fx:     'fade', 

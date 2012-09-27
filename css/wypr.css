@@ -457,7 +457,7 @@ div.jp-type-playlist div.jp-playlist {
   position: absolute;
   top: 0;
   left: 400px;
-  width: 100px;
+  width: 110px;
 }
 
 div.jp-type-playlist div.jp-playlist ul,
@@ -475,5 +475,5 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   height: 50px;
   overflow: hidden;
   text-indent: -999999px;
-  width: 100px;
+  width: 110px;
 }
