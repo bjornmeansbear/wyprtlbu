@@ -248,7 +248,7 @@ div.region-glider div.glider .view .view-content:hover .slide p {
   display: block;
 }
 div.region-glider div.glider .view .view-content .slide h3.title {
-  background: rgba(121,109,105,.66);
+  background: rgba(121,109,105,.8);
   height:225px;
   top:0;
 }
@@ -280,6 +280,14 @@ div.region-glider div.glider .view .view-content .slide p a {
   -webkit-border-radius: 13px;
   -o-border-radius: 13px;
   -ms-border-radius: 13px;
+}
+
+#slidenav a.activeSlide {
+  border: 1px solid #796D69; 
+}
+
+#slidenav a:hover {
+  opacity: .66;
 }
 
 #slidenav a:first-child {
