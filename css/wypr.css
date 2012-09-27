@@ -138,6 +138,8 @@ h1#page-title {
   .section-our-stories #navigation, .section-our-stories #navigation nav             { background-position-x: -1550px; }
   .section-your-stories #navigation, .section-your-stories #navigation nav           { background-position-x: -2325px; }
 
+/* Get rid od basic page headers for "node-type-page" */
+body.node-type-page #content h1.title {display:none;}
 
 /* Our Stories
 ==========================================*/
