@@ -434,3 +434,9 @@ div.jp-audio div.jp-type-playlist div.jp-duration {
 	left:164px;
 	width:122px;
 }
+
+div.jp-audio p#listen {
+  position: absolute;
+  top:0;
+  left:0;
+}
