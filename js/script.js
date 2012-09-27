@@ -23,6 +23,12 @@
     }
   };
 
+  Drupal.behaviors.addtexttojp = {
+    attach: function (context, settings) {
+      $('.jp-interface').append('<p id="listen">Listen Now</p>');
+    }
+  };
+
 })(jQuery, Drupal, this, this.document);
 
 
