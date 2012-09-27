@@ -152,6 +152,14 @@ function STARTERKIT_preprocess_page(&$variables, $hook) {
 }
 // */
 
+/* Allow for page level templating */
+function themeName_preprocess_page(&$vars, $hook) {
+  if (isset($vars['node'])) {
+  // If the node type is "blog" the template suggestion will be "page--blog.tpl.php".
+   $vars['theme_hook_suggestions'][] = 'page__'. str_replace('_', '--', $vars['node']->type);
+  }
+}
+
 /**
  * Override or insert variables into the node templates.
  *
