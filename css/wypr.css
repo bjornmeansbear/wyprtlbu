@@ -321,6 +321,11 @@ div.jp-audio {
 	width:420px;
 }
 
+div.jp-audio, div.jp-type-single, div.jp-type-playlist {
+	position: relative;
+}
+
+
 div.jp-interface {
 	position: relative;
 	background-color:#eee;
@@ -436,7 +441,21 @@ div.jp-audio div.jp-type-playlist div.jp-duration {
 }
 
 div.jp-audio p#listen {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
   position: absolute;
-  top:0;
-  left:0;
+  top: 15.5px;
+  left: 6px;
+}
+
+div.jp-playlist {
+  background-color: #CCC;
+  border: 1px solid #796D69;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 100px;
 }
