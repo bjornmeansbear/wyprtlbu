@@ -243,11 +243,11 @@ div.region-glider div.glider .view .view-content .slide p {
   left:0;
   z-index: 9;
 }
-div.region-glider div.glider .view .view-content .view-content:hover .slide h3.title,
-div.region-glider div.glider .view .view-content .view-content:hover .slide p {
+div.region-glider div.glider .view .view-content:hover .slide h3.title,
+div.region-glider div.glider .view .view-content:hover .slide p {
   display: block;
 }
-div.region-glider div.glider .view .view-content .view-content .slide h3.title {
+div.region-glider div.glider .view .view-content .slide h3.title {
   background: rgba(121,109,105,.66);
   color: white;
   height:225px;
