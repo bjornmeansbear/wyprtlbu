@@ -517,6 +517,6 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   padding: 0;
   position: absolute;
   top: 55px;
-  left: 110px;
+  right: 10px;
   z-index:2;
 }
