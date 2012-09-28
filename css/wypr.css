@@ -471,11 +471,17 @@ div.jp-audio p#listen {
 div.jp-type-playlist div.jp-playlist {
   background-color: #CCC;
   border: 1px solid #796D69;
-  height: 50px;
+  border-top;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  position: relative
+/*
   position: absolute;
   top: 0;
   left: 400px;
   width: 110px;
+*/
 }
 
 div.jp-type-playlist div.jp-playlist ul,
@@ -484,14 +490,28 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
   list-style: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 div.jp-type-playlist div.jp-playlist ul li a,
 div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   display: block;
   background: url(i/icon-download.png) center center no-repeat;
-  height: 50px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  position: relative;
   overflow: hidden;
   text-indent: -999999px;
-  width: 110px;
+  width: 100%;
+}
+
+div.jp-type-playlist div.jp-playlist #instruct {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 110px;
 }
