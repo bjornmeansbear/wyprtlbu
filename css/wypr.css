@@ -509,7 +509,7 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   z-index:9;
 }
 
-div.jp-type-playlist div.jp-playlist #instruct {
+#instruct {
   color: #666;
   font-size: 12px;
   font-style: italic;
