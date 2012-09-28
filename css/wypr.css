@@ -471,7 +471,7 @@ div.jp-audio p#listen {
 div.jp-type-playlist div.jp-playlist {
   background-color: #CCC;
   border: 1px solid #796D69;
-  border-top;
+  border-top: none;
   height: 25px;
   margin: 0;
   padding: 0;
@@ -496,7 +496,7 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
 div.jp-type-playlist div.jp-playlist ul li a,
 div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   display: block;
-  background: url(i/icon-download.png) center center no-repeat;
+  background: url(i/icon-download.png) left center no-repeat;
   height: 25px;
   margin: 0;
   padding: 0;
