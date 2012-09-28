@@ -29,7 +29,7 @@
   };
   Drupal.behaviors.addtexttojptwo = {
     attach: function (context, settings) {
-      $('.jp-playlist a').append('<p id="instruct">(Right Click &amp; Save As)</p>');
+      $('.jp-playlist').append('<p id="instruct">(Right Click &amp; Save As)</p>');
     }
   };
 
