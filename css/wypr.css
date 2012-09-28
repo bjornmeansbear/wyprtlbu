@@ -514,4 +514,5 @@ div.jp-type-playlist div.jp-playlist #instruct {
   position: absolute;
   top: 5px;
   left: 110px;
+  z-index: 9;
 }
