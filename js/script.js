@@ -22,14 +22,15 @@
     }
   };
 
-  Drupal.behaviors.addtexttojp = {
+  Drupal.behaviors.addlistennow = {
     attach: function (context, settings) {
-      $('.jp-interface').append('<p id="listen">Listen Now</p>');
+      $('.jp-interface').after('<p id="listen">Listen Now</p>');
     }
   };
-  Drupal.behaviors.addtexttojptwo = {
+  
+  Drupal.behaviors.addinstruct = {
     attach: function (context, settings) {
-      $('.jp-playlist').append('<p id="instruct">(Right Click &amp; Save As)</p>');
+      $('.jp-playlist').after('<p id="instruct">(Right Click &amp; Save As)</p>');
     }
   };
 
