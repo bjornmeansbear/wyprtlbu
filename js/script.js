@@ -25,7 +25,7 @@
   Drupal.behaviors.addtexttojp = {
     attach: function (context, settings) {
       $('.jp-interface').append('<p id="listen">Listen Now</p>');
-      $('.jp-playlist ul li a').append('<p id="instruct">(Right Click &amp; Save As)</p>');
+      $('.jp-playlist .jp-playlist-current a').append('<p id="instruct">(Right Click &amp; Save As)</p>');
     }
   };
 
