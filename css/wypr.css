@@ -186,7 +186,16 @@ div.teaser p {
 
 .page-episodes #content h3.post-title,
 .page-episodes #content div.airdate,
-.page-episodes #content div.teaser {
+.page-episodes #content div.teaser,
+.page-our-stories #content h3.post-title,
+.page-our-stories #content div.airdate,
+.page-our-stories #content div.teaser,
+.page-seeing-inequality #content h3.post-title,
+.page-seeing-inequality #content div.airdate,
+.page-seeing-inequality #content div.teaser,
+.page-your-stories #content h3.post-title,
+.page-your-stories #content div.airdate,
+.page-your-stories #content div.teaser {
   margin-left: 187.5px;
 }
 
