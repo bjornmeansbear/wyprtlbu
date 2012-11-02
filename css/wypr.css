@@ -161,6 +161,7 @@ div.view-our-stories div.segment {
   text-decoration: none;
   }
   
+  
 div.airdate, 
 div.airdate strong, 
 div.airdate p {
@@ -181,6 +182,12 @@ div.teaser p {
 .pagelisting {
   border-bottom: 1px solid #796D69;
   padding: 25px 0;
+}
+
+.page-episodes #content h3.post-title,
+.page-episodes #content div.airdate,
+.page-episodes #content div.teaser {
+  margin-left: 187.5px;
 }
 
 /* Twitter Block Styles
