@@ -27,8 +27,8 @@
       var imgcaption = $('.node .field-name-body img.media-image').attr('alt');
       var wrapstyle = $('.node .field-name-body img.media-image').attr('style');
       $('.node .field-name-body img.media-image').wrap('<div style="' + wrapstyle + '"/>');
-      $('.node .field-name-body img.media-image').after('<p class="imgcaption" />');
-      $('p.imgcaption').text(imgcaption);
+      $('.node .field-name-body img.media-image').after('<span class="imgcaption clear" />');
+      $('span.imgcaption').text(imgcaption);
     }
   };
 
