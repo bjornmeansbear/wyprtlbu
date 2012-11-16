@@ -37,7 +37,7 @@
   Drupal.behaviors.captionappend = {
     attach: function (context, settings) {
       $('.node .field-name-body img.media-image').wrap(function(){
-        return '<div class=".imgcaptionwrap" style="' + $(this).attr('style') + '"/>';
+        return '<div class="imgcaptionwrap" style="' + $(this).attr('style') + '"/>';
       });
       
       $('.node .field-name-body img.media-image').after(function(){
