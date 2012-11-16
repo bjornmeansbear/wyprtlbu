@@ -34,19 +34,32 @@
   };
 */
 
+/*
   Drupal.behaviors.captionappend = {
     attach: function (context, settings) {
-      $('.node .field-name-body img.media-image').wrap(function(){
+      $('img.media-image').wrap(function(){
         return '<div class="imgcaptionwrap" style="' + $(this).attr('style') + '"/>';
       });
       
-      $('.node .field-name-body img.media-image').after(function(){
+      $('img.media-image').after(function(){
         return '<p class="imgcaption clear">' + $(this).attr('alt') + '</p>';
       });
 
     }
   };
+*/
   
+    Drupal.behaviors.captionappend = {
+    attach: function (context, settings) {
+      $('img.media-image').each(function(){
+        $(this).wrap('<div class="imgcaptionwrap" style="' + $(this).attr('style') + '"/>');
+        $(this).after('<p class="imgcaption clear">' + $(this).attr('alt') + '</p>');
+      });
+
+    }
+  };
+  
+
   
   
 

@@ -541,7 +541,7 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
 a img,
 .node .field-name-body a img,
 .node .field-name-body .imgcaptionwrap,
-.node .field-name-body .imgcaptionwrap img {border: none !important; }
+.node .field-name-body .imgcaptionwrap img {border: none !important;}
 
 .node .field-name-body .imgcaptionwrap {
   height: auto !important;
