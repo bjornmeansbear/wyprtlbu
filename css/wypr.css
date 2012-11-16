@@ -545,4 +545,5 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
 
 .node .field-name-body .imgcaptionwrap .imgcaption {
   background: #eaeaea;
+  padding:6px;
 }
