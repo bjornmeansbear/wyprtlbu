@@ -22,6 +22,12 @@
     }
   };
 
+  Drupal.behaviors.captionappend = {
+    attach: function (context, settings) {
+      $('img').append($(this).attr('alt');
+    }
+  };
+
   Drupal.behaviors.addlistennow = {
     attach: function (context, settings) {
       $('.jp-interface').after('<p id="listen">Listen Now</p>');
