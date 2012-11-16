@@ -25,7 +25,9 @@
   Drupal.behaviors.captionappend = {
     attach: function (context, settings) {
       var imgcaption = $('.node .field-name-body img.media-image').attr('alt');
-      $('.node .field-name-body img.media-image').after('<p class="imgcaption">');
+      var wrapstyle = $('.node .field-name-body img.media-image').attr('style');
+      $('.node .field-name-body img.media-image').wrap('<div style="' + wrapstyle + '"/>');
+      $('.node .field-name-body img.media-image').after('<p class="imgcaption" />');
       $('p.imgcaption').text(imgcaption);
     }
   };
