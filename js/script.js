@@ -22,6 +22,7 @@
     }
   };
 
+/* old IMAGE CAPTION CODE THAT WASN'T QUITE WORKING
   Drupal.behaviors.captionappend = {
     attach: function (context, settings) {
       var imgcaption = $('.node .field-name-body img.media-image').attr('alt');
@@ -29,6 +30,20 @@
       $('.node .field-name-body img.media-image').wrap('<div class="imgcaptionwrap" style="' + wrapstyle + '"/>');
       $('.node .field-name-body img.media-image').after('<span class="imgcaption clear" />');
       $('span.imgcaption').text(imgcaption);
+    }
+  };
+*/
+
+  Drupal.behaviors.captionappend = {
+    attach: function (context, settings) {
+      $('.node .field-name-body img.media-image').wrap(function(){
+        return '<div style="' + $(this).attr('style') + '"/>';
+      });
+      
+      $('.node .field-name-body img.media-image').after(function(){
+        return '<p class="imgcaption clear">' + $(this).attr('alt') + '</p>';
+      });
+
     }
   };
 
