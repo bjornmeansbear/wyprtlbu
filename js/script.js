@@ -26,7 +26,7 @@
     attach: function (context, settings) {
       var imgcaption = $('.node .field-name-body img.media-image').attr('alt');
       var wrapstyle = $('.node .field-name-body img.media-image').attr('style');
-      $('.node .field-name-body img.media-image').wrap('<div style="' + wrapstyle + '"/>');
+      $('.node .field-name-body img.media-image').wrap('<div class="imgcaptionwrap" style="' + wrapstyle + '"/>');
       $('.node .field-name-body img.media-image').after('<span class="imgcaption clear" />');
       $('span.imgcaption').text(imgcaption);
     }

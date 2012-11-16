@@ -536,3 +536,13 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-current {
   right: 10px;
   z-index:2;
 }
+
+/* CUSTOM IMAGE CAPTION SOLUTION STYLES (solution built in JS)*/
+.node .field-name-body .imgcaptionwrap {
+  height: auto !important;
+  margin-bottom: 24px;
+}
+
+.node .field-name-body .imgcaptionwrap .imgcaption {
+  background: #eaeaea;
+}
