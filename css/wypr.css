@@ -549,6 +549,7 @@ a img,
 }
 
 .node .field-name-body .imgcaptionwrap .imgcaption {
+  font-size: 80%;
 /*   background: #eaeaea; */
 /*   padding:6px; */
 }
