@@ -27,7 +27,7 @@
   //Current Code that generates wraps and caption areas for each image. Captions should be pulled from alt="" field
   Drupal.behaviors.captionappend = {
     attach: function (context, settings) {
-      $('img.media-image').each(function(){
+      $('img.media-image').once('media-image').each(function(){
         $(this).wrap('<div class="imgcaptionwrap" style="' + $(this).attr('style') + '"/>');
         $(this).after('<span class="imgcaption clear">' + $(this).attr('alt') + '</span>');
       });
