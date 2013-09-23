@@ -548,8 +548,54 @@ a img,
   margin-bottom: 24px;
 }
 
+/* iTunes feed link styles */
+.itunes {
+  border-bottom: 1px solid;
+  padding-bottom: 6px;
+}
+
+#block-block-11 {
+  border: none;
+}
+
+.itunes.block > a {
+  background: url(i/podcast.gif) left center no-repeat;
+  display: block;
+  padding:12px;
+  text-indent: 36px;
+}
+
 .node .field-name-body .imgcaptionwrap .imgcaption {
   font-size: 80%;
 /*   background: #eaeaea; */
 /*   padding:6px; */
+}
+
+#block-block-13.custom.lines-live {
+  background: transparent url(i/tlbu-live.gif) center center no-repeat;
+  height: 250px;
+  width: 275px;
+  overflow: hidden;
+  position: relative;
+}
+
+#block-block-13.custom.lines-live h2,
+#block-block-13.custom.lines-live p {
+  text-indent: -9999999px;
+  overflow: hidden;
+  position: relative;
+}
+
+#block-block-13.custom.lines-live a#bigbtn {
+  display: block;
+  position: absolute;
+  height: 250px;
+  width: 275px;
+  text-decoration: none;
+  top:0;
+  left: 0;
+}
+
+#block-multiblock-2 {
+  margin-left: 10px;
 }

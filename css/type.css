@@ -1,8 +1,6 @@
 /* WYPR custom Typographic styles for TLBU site */
 
-/*
-==========================================
-*/
+/* ========================================== */
 
 body {
   font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,7 +12,6 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 16px;
 }
 
-
 /* COLOR INFO */
 /*
 Orange: rgba(232,124,66,1)    #E87C42
@@ -24,14 +21,20 @@ Yellow: rgba(252,177,51,1)    #FCB133
 */
 
 /* Color Rules, Etc.
-==========================================
-*/
+==========================================*/
 
 html, body { color: black; }
 a, a:link, a:visited, a:hover, a:active, a.active { color:#796D69; text-decoration: none; }
-li.menu-390 a { color: rgba(232,124,66,1); }
-li.menu-389 a { color: rgba(63,184,199,1); }
-li.menu-470 a { color: rgba(252,177,51,1); }
+li.menu-390 a { color: #E87C42; color: rgba(232,124,66,1); }
+li.menu-389 a { color: #3FB8C7; color: rgba(63,184,199,1); }
+li.menu-470 a { color: #FCB133; color: rgba(252,177,51,1); }
+li.menu-645 a { 
+  border-bottom: 1px solid;
+  border-color: #FCB133;
+  border-color: rgba(252,177,51,1);
+  color: #3FB8C7; 
+  color: rgba(63,184,199,1); 
+}
 #man-menu ul.links li a.active { border-bottom: 1px solid; }
 
 .os h3, .os h3 a, .view-display-id-block_2 h3.title {color:#E87C42;}
